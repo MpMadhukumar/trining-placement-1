@@ -1,0 +1,5 @@
+word=input(enter the word")
+if (word==word[::-1]):
+print("palidrome")
+else:
+print("not a palidrome")
