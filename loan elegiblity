@@ -1,0 +1,11 @@
+salary=int(input("enter the salary:"))
+age=int(input("enter the age:"))
+if(salary>=20000 or age<=25):
+    print("you are eligible for loan")
+else:
+    print("you are not eligible for loan")
+loan=int(input("enter the loan amount:"))
+if(loan<=50000):
+    print( "congrugulations you got loan amount")
+else:
+    print("better luck next time")
