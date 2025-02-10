@@ -1,0 +1,5 @@
+income=int(input("enter your income:"))
+if(income<=7000):
+    print("you are not eligible for scholarship")
+else:
+    print("you are  eligible for scholarship")
