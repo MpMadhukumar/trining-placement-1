@@ -1,0 +1,9 @@
+num=int(input("enter the number:"))
+sum=0
+if(num<0):
+    print("invaluid num")
+while(num>0):
+    digits=num%10
+    sum+=digits
+    num//=10
+    print("the sum of the digits :",sum)
